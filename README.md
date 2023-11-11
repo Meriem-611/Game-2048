@@ -11,8 +11,6 @@ This project demonstrates the deployment of a Dockerized version of the popular 
 ## Project Structure
 
 - **Dockerfile:** Specifies the configuration for the Docker image.
-- **nginx.conf:** NGINX configuration file for hosting the game.
-- **.gitignore:** Specifies files and directories to be ignored by Git.
 - **README.md:** Project documentation.
 
 ## Local Setup
@@ -24,4 +22,10 @@ To run the project locally, follow these steps:
 
    ```bash
    git clone https://github.com/your-username/dockerized-2048-game.git
-
+3. Navigate to the project directory:
+   cd dockerized-2048-game
+4. Build the Docker image:
+   docker build -t 2048-game .
+5. Run the Docker Container:
+   docker run -p 80:80 2048-game
+6. Open your browser and visit http://localhost to play the 2048 game locally.
