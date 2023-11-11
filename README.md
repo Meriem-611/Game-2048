@@ -35,3 +35,23 @@ To run the project locally, follow these steps:
    ```bash
    docker run -p 80:80 2048-game
 9. Open your browser and visit http://localhost to play the 2048 game locally.
+
+## Technologies Used
+Docker
+NGINX
+AWS Elastic Beanstalk
+
+## Deployment on AWS
+To deploy the game on AWS Elastic Beanstalk:
+
+1. Create an Elastic Beanstalk environment with Docker platform.
+2. Upload the Docker image to AWS Elastic Beanstalk.
+3. Configure environment settings and deploy the application.
+
+## License
+This project is licensed under the MIT License.
+
+# Acknowledgments
+Special thanks to Gabriele Cirulli for the original 2048 game.
+
+Feel free to contribute, report issues, or provide feedback!
