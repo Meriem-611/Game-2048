@@ -23,9 +23,15 @@ To run the project locally, follow these steps:
    ```bash
    git clone https://github.com/your-username/dockerized-2048-game.git
 3. Navigate to the project directory:
+
+   ```bash
    cd dockerized-2048-game
-4. Build the Docker image:
+5. Build the Docker image:
+
+   ```bash
    docker build -t 2048-game .
-5. Run the Docker Container:
+7. Run the Docker Container:
+
+   ```bash
    docker run -p 80:80 2048-game
-6. Open your browser and visit http://localhost to play the 2048 game locally.
+9. Open your browser and visit http://localhost to play the 2048 game locally.
