@@ -6,7 +6,7 @@ Deployed a Dockerized version of the popular game "2048" on AWS Elastic Beanstal
 
 This project demonstrates the deployment of a Dockerized version of the popular game "2048" on AWS Elastic Beanstalk. It leverages Docker for containerization and AWS Elastic Beanstalk for easy deployment and management.
 
-![2048 Game](screenshot.png)
+![2048 Game](gamepng.png)
 
 ## Project Structure
 
@@ -21,7 +21,7 @@ To run the project locally, follow these steps:
 2. Clone this repository:
 
    ```bash
-   git clone https://github.com/your-username/dockerized-2048-game.git
+   git clone https://github.com/Meriem-611/dockerized-2048-game.git
 3. Navigate to the project directory:
 
    ```bash
